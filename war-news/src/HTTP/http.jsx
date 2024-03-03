@@ -12,7 +12,7 @@ export const http = axios.create({
 const getAllItems = async () => {
   try {
     const response = await http.get("/news");
-    return response.data;
+    return response.data.news;
   } catch (error) {
     console.error("An error occurred while fetching data:", error);
   }

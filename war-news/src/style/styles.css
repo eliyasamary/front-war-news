@@ -72,8 +72,8 @@
 }
 
 .item-box {
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 100%;
   background-color: #fff;
   border-radius: 20px;
   padding: 10px;
@@ -85,6 +85,7 @@
   font-weight: 400;
   font-style: italic;
   font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .item-description {
@@ -101,4 +102,17 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+.input-field {
+  background-color: #fff;
+}
+
+.flex-container-col {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 20px;
+  width: 300px;
 }

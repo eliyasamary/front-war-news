@@ -32,9 +32,9 @@ const AllNews = () => {
           <Box key={item._id} className="item-box">
             <Box className="item-title">{item.title}</Box>
             <Box className="item-description">{item.description}</Box>
-            <Box className="item-image">
+            {/* <Box className="item-image">
               <img src={item.image} alt={item.title} />
-            </Box>
+            </Box> */}
           </Box>
         ))}
       </Box>
